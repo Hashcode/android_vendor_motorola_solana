@@ -232,6 +232,7 @@ vendor/motorola/solana/proprietary/libomx_avcdec_sharedlibrary.so:/system/lib/li
 vendor/motorola/solana/proprietary/libomx_m4vdec_sharedlibrary.so:/system/lib/libomx_m4vdec_sharedlibrary.so \
 vendor/motorola/solana/proprietary/libomx_mp3dec_sharedlibrary.so:/system/lib/libomx_mp3dec_sharedlibrary.so \
 vendor/motorola/solana/proprietary/libomx_sharedlibrary.so:/system/lib/libomx_sharedlibrary.so \
+vendor/motorola/solana/proprietary/libomxcameraadapter.so:/system/lib/libomxcameraadapter.so \
 vendor/motorola/solana/proprietary/libopencore_author.so:/system/lib/libopencore_author.so \
 vendor/motorola/solana/proprietary/libopencore_download.so:/system/lib/libopencore_download.so \
 vendor/motorola/solana/proprietary/libopencore_downloadreg.so:/system/lib/libopencore_downloadreg.so \
