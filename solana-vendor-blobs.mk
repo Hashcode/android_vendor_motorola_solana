@@ -295,12 +295,10 @@ vendor/motorola/solana/proprietary/en-US_ta.bin:/system/tts/lang_pico/en-US_ta.b
 vendor/motorola/solana/proprietary/es-ES_ta.bin:/system/tts/lang_pico/es-ES_ta.bin \
 vendor/motorola/solana/proprietary/es-ES_zl0_sg.bin:/system/tts/lang_pico/es-ES_zl0_sg.bin \
 vendor/motorola/solana/proprietary/icudt44l.dat:/system/usr/icu/icudt44l.dat \
-vendor/motorola/solana/proprietary/cdma_solana-keypad.kcm.bin:/system/usr/keychars/cdma_solana-keypad.kcm.bin \
 vendor/motorola/solana/proprietary/qwerty.kcm.bin:/system/usr/keychars/qwerty.kcm.bin \
 vendor/motorola/solana/proprietary/qwerty2.kcm.bin:/system/usr/keychars/qwerty2.kcm.bin \
 vendor/motorola/solana/proprietary/usb_keyboard_102_en_us.kcm.bin:/system/usr/keychars/usb_keyboard_102_en_us.kcm.bin \
 vendor/motorola/solana/proprietary/AVRCP.kl:/system/usr/keylayout/AVRCP.kl \
-vendor/motorola/solana/proprietary/cdma_solana-keypad.kl:/system/usr/keylayout/cdma_solana-keypad.kl \
 vendor/motorola/solana/proprietary/cpcap-key.kl:/system/usr/keylayout/cpcap-key.kl \
 vendor/motorola/solana/proprietary/qwerty.kl:/system/usr/keylayout/qwerty.kl \
 vendor/motorola/solana/proprietary/usb_keyboard_102_en_us.kl:/system/usr/keylayout/usb_keyboard_102_en_us.kl \
