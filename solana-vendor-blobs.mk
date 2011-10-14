@@ -97,6 +97,53 @@ vendor/motorola/solana/proprietary/smc_android_cfg.ini:/system/etc/smc_android_c
 vendor/motorola/solana/proprietary/smc_pa.ift:/system/etc/smc_pa.ift \
 vendor/motorola/solana/proprietary/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
 vendor/motorola/solana/proprietary/supportedlocales.conf:/system/etc/supportedlocales.conf \
+
+# system/permissions
+PRODUCT_COPY_FILES += \
+vendor/motorola/solana/proprietary/android.hardware.camera.front.xml:/system/etc/permissions/android.hardware.camera.front.xml \
+vendor/motorola/solana/proprietary/android.hardware.camera.flash-autofocus.xml:/system/etc/permissions/android.hardware.camera.flash-autofocus.xml \
+vendor/motorola/solana/proprietary/android.hardware.location.gps.xml:/system/etc/permissions/android.hardware.location.gps.xml \
+vendor/motorola/solana/proprietary/android.hardware.sensor.accelerometer.xml:/system/etc/permissions/android.hardware.sensor.accelerometer.xml \
+vendor/motorola/solana/proprietary/android.hardware.sensor.light.xml:/system/etc/permissions/android.hardware.sensor.light.xml \
+vendor/motorola/solana/proprietary/android.hardware.sensor.proximity.xml:/system/etc/permissions/android.hardware.sensor.proximity.xml \
+vendor/motorola/solana/proprietary/android.hardware.telephony.cdma.xml:/system/etc/permissions/android.hardware.telephony.cdma.xml \
+vendor/motorola/solana/proprietary/android.hardware.telephony.gsm.xml:/system/etc/permissions/android.hardware.telephony.gsm.xml \
+vendor/motorola/solana/proprietary/android.hardware.touchscreen.multitouch.xml:/system/etc/permissions/android.hardware.touchscreen.multitouch.xml \
+vendor/motorola/solana/proprietary/android.hardware.touchscreen.multitouch.distinct.xml:/system/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml \
+vendor/motorola/solana/proprietary/android.hardware.wifi.xml:/system/etc/permissions/android.hardware.wifi.xml \
+vendor/motorola/solana/proprietary/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml \
+vendor/motorola/solana/proprietary/com.android.location.provider.xml:/system/etc/permissions/com.android.location.provider.xml \
+vendor/motorola/solana/proprietary/com.cequint.platform.xml:/system/etc/permissions/com.cequint.platform.xml \
+vendor/motorola/solana/proprietary/com.motorola.android.camera.xml:/system/etc/permissions/com.motorola.android.camera.xml \
+vendor/motorola/solana/proprietary/com.motorola.android.customization.xml:/system/etc/permissions/com.motorola.android.customization.xml \
+vendor/motorola/solana/proprietary/com.motorola.android.datamanager_library.xml:/system/etc/permissions/com.motorola.android.datamanager_library.xml \
+vendor/motorola/solana/proprietary/com.motorola.android.dlna_library.xml:/system/etc/permissions/com.motorola.android.dlna_library.xml \
+vendor/motorola/solana/proprietary/com.motorola.android.drm1config.xml:/system/etc/permissions/com.motorola.android.drm1config.xml \
+vendor/motorola/solana/proprietary/com.motorola.android.drmcommonconfig.xml:/system/etc/permissions/com.motorola.android.drmcommonconfig.xml \
+vendor/motorola/solana/proprietary/com.motorola.android.iextdispservice.xml:/system/etc/permissions/com.motorola.android.iextdispservice.xml \
+vendor/motorola/solana/proprietary/com.motorola.android.imirrorservice.xml:/system/etc/permissions/com.motorola.android.imirrorservice.xml \
+vendor/motorola/solana/proprietary/com.motorola.android.mediasyncconfig.xml:/system/etc/permissions/com.motorola.android.mediasyncconfig.xml \
+vendor/motorola/solana/proprietary/com.motorola.android.mobad.xml:/system/etc/permissions/com.motorola.android.mobad.xml \
+vendor/motorola/solana/proprietary/com.motorola.android.nativehdmiapis_v1.xml:/system/etc/permissions/com.motorola.android.nativehdmiapis_v1.xml \
+vendor/motorola/solana/proprietary/com.motorola.android.storage_library.xml:/system/etc/permissions/com.motorola.android.storage_library.xml \
+vendor/motorola/solana/proprietary/com.motorola.android.tcmd.xml:/system/etc/permissions/com.motorola.android.tcmd.xml \
+vendor/motorola/solana/proprietary/com.motorola.android.widget.xml:/system/etc/permissions/com.motorola.android.widget.xml \
+vendor/motorola/solana/proprietary/com.motorola.app.admin_library.xml:/system/etc/permissions/com.motorola.app.admin_library.xml \
+vendor/motorola/solana/proprietary/com.motorola.atcmd_library.xml:/system/etc/permissions/com.motorola.atcmd_library.xml \
+vendor/motorola/solana/proprietary/com.motorola.device.xml:/system/etc/permissions/com.motorola.device.xml \
+vendor/motorola/solana/proprietary/com.nbi.android.xml:/system/etc/permissions/com.nbi.android.xml \
+vendor/motorola/solana/proprietary/com.scalado.android.photoeditor.xml:/system/etc/permissions/com.scalado.android.photoeditor.xml \
+vendor/motorola/solana/proprietary/com.scalado.caps.xml:/system/etc/permissions/com.scalado.caps.xml \
+vendor/motorola/solana/proprietary/com.softwareimaging.mot.xml:/system/etc/permissions/com.softwareimaging.mot.xml \
+vendor/motorola/solana/proprietary/com.vzw.android.hux.xml:/system/etc/permissions/com.vzw.android.hux.xml \
+vendor/motorola/solana/proprietary/com.vzw.android.smart.xml:/system/etc/permissions/com.vzw.android.smart.xml \
+vendor/motorola/solana/proprietary/com.vzw.android.xml:/system/etc/permissions/com.vzw.android.xml \
+vendor/motorola/solana/proprietary/handheld_core_hardware.xml:/system/etc/permissions/handheld_core_hardware.xml \
+vendor/motorola/solana/proprietary/jcifs-krb5-1.3.12.xml:/system/etc/permissions/jcifs-krb5-1.3.12.xml \
+vendor/motorola/solana/proprietary/platform.xml:/system/etc/permissions/platform.xml \
+
+# system/etc/(others)
+PRODUCT_COPY_FILES += \
 vendor/motorola/solana/proprietary/TIInit_10.5.20.bts:/system/etc/firmware/TIInit_10.5.20.bts \
 vendor/motorola/solana/proprietary/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
 vendor/motorola/solana/proprietary/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
@@ -291,8 +338,7 @@ vendor/motorola/solana/proprietary/libvsuite_mot_vs32_cmb103.so:/system/lib/libv
 vendor/motorola/solana/proprietary/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
 vendor/motorola/solana/proprietary/libxmpcore.so:/system/lib/libxmpcore.so \
 
-# system/lib (others)
-PRODUCT_COPY_FILES += \
+# system/lib/(others)
 vendor/motorola/solana/proprietary/Notify_MPUAPP_reroute_Test_Core1.xem3:/system/lib/ducati/Notify_MPUAPP_reroute_Test_Core1.xem3 \
 vendor/motorola/solana/proprietary/Notify_MPUSYS_Test_Core0.xem3:/system/lib/ducati/Notify_MPUSYS_Test_Core0.xem3 \
 vendor/motorola/solana/proprietary/Notify_MPUSYS_reroute_Test_Core0.xem3:/system/lib/ducati/Notify_MPUSYS_reroute_Test_Core0.xem3 \
