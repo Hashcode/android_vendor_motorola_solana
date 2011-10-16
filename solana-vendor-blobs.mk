@@ -188,7 +188,9 @@ vendor/motorola/solana/proprietary/libarcomx_wmadec_sharedlibrary.so:/system/lib
 vendor/motorola/solana/proprietary/libarcplatform.so:/system/lib/libarcplatform.so \
 vendor/motorola/solana/proprietary/libarcsoft.so:/system/lib/libarcsoft.so \
 vendor/motorola/solana/proprietary/libarcstagefright.so:/system/lib/libarcstagefright.so \
+vendor/motorola/solana/proprietary/libaudio.so:/system/lib/libaudio.so \
 vendor/motorola/solana/proprietary/libaudio_ext.so:/system/lib/libaudio_ext.so \
+vendor/motorola/solana/proprietary/libaudiopolicy.so:/system/lib/libaudiopolicy.so \
 vendor/motorola/solana/proprietary/libaudiopolicy_ext.so:/system/lib/libaudiopolicy_ext.so \
 vendor/motorola/solana/proprietary/libbattd.so:/system/lib/libbattd.so \
 vendor/motorola/solana/proprietary/libbcbmsg.so:/system/lib/libbcbmsg.so \
@@ -306,6 +308,8 @@ vendor/motorola/solana/proprietary/libGLESv2_POWERVR_SGX540_120.so:/system/lib/e
 vendor/motorola/solana/proprietary/libeglinfo.so:/system/lib/egl/libeglinfo.so \
 vendor/motorola/solana/proprietary/libgles1_texture_stream.so:/system/lib/egl/libgles1_texture_stream.so \
 vendor/motorola/solana/proprietary/libgles2_texture_stream.so:/system/lib/egl/libgles2_texture_stream.so \
+vendor/motorola/solana/proprietary/acoustics.default.so:/system/lib/hw/acoustics.default.so \
+vendor/motorola/solana/proprietary/alsa.default.so:/system/lib/hw/alsa.default.so \
 vendor/motorola/solana/proprietary/alsa.omap4.so:/system/lib/hw/alsa.omap4.so \
 vendor/motorola/solana/proprietary/gps.solana.so:/system/lib/hw/gps.solana.so \
 vendor/motorola/solana/proprietary/gralloc.omap4.so:/system/lib/hw/gralloc.omap4.so \
