@@ -242,6 +242,7 @@ vendor/motorola/solana/proprietary/libmtpstack.so:/system/lib/libmtpstack.so \
 vendor/motorola/solana/proprietary/libnative_renderer.so:/system/lib/libnative_renderer.so \
 vendor/motorola/solana/proprietary/libnativedrm1.so:/system/lib/libnativedrm1.so \
 vendor/motorola/solana/proprietary/libnbgm.so:/system/lib/libnbgm.so \
+vendor/motorola/solana/proprietary/libnetutils.so:/system/lib/libnetutils.so \
 vendor/motorola/solana/proprietary/libnmea.so:/system/lib/libnmea.so \
 vendor/motorola/solana/proprietary/libomx_aacdec_sharedlibrary.so:/system/lib/libomx_aacdec_sharedlibrary.so \
 vendor/motorola/solana/proprietary/libomx_amrdec_sharedlibrary.so:/system/lib/libomx_amrdec_sharedlibrary.so \
