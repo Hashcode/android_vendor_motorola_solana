@@ -75,6 +75,7 @@ vendor/motorola/solana/proprietary/tstmetainfo:/system/bin/tstmetainfo \
 vendor/motorola/solana/proprietary/tty2ttyd:/system/bin/tty2ttyd \
 vendor/motorola/solana/proprietary/tund:/system/bin/tund \
 vendor/motorola/solana/proprietary/usbd:/system/bin/usbd \
+vendor/motorola/solana/proprietary/vold:/system/bin/vold \
 vendor/motorola/solana/proprietary/vpnclientpm:/system/bin/vpnclientpm \
 vendor/motorola/solana/proprietary/whisperd:/system/bin/whisperd \
 
