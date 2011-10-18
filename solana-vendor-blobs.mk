@@ -63,6 +63,7 @@ vendor/motorola/solana/proprietary/motobox:/system/bin/motobox \
 vendor/motorola/solana/proprietary/napics.sh:/system/bin/napics.sh \
 vendor/motorola/solana/proprietary/pppd-ril:/system/bin/pppd-ril \
 vendor/motorola/solana/proprietary/pvrsrvinit:/system/bin/pvrsrvinit \
+vendor/motorola/solana/proprietary/rild:/system/bin/rild \
 vendor/motorola/solana/proprietary/secclkd:/system/bin/secclkd \
 vendor/motorola/solana/proprietary/smc_pa_ctrl:/system/bin/smc_pa_ctrl \
 vendor/motorola/solana/proprietary/start_enc_mgt_tool.sh:/system/bin/start_enc_mgt_tool.sh \
@@ -276,6 +277,8 @@ vendor/motorola/solana/proprietary/libpvr2d.so:/system/lib/libpvr2d.so \
 vendor/motorola/solana/proprietary/libpvrANDROID_WSEGL.so:/system/lib/libpvrANDROID_WSEGL.so \
 vendor/motorola/solana/proprietary/libquicksec.so:/system/lib/libquicksec.so \
 vendor/motorola/solana/proprietary/librds_util.so:/system/lib/librds_util.so \
+vendor/motorola/solana/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
+vendor/motorola/solana/proprietary/libril.so:/system/lib/libril.so \
 vendor/motorola/solana/proprietary/libril_rds.so:/system/lib/libril_rds.so \
 vendor/motorola/solana/proprietary/libscalado.so:/system/lib/libscalado.so \
 vendor/motorola/solana/proprietary/libsmapi.so:/system/lib/libsmapi.so \
@@ -325,12 +328,10 @@ vendor/motorola/solana/proprietary/en-US_ta.bin:/system/tts/lang_pico/en-US_ta.b
 vendor/motorola/solana/proprietary/es-ES_ta.bin:/system/tts/lang_pico/es-ES_ta.bin \
 vendor/motorola/solana/proprietary/es-ES_zl0_sg.bin:/system/tts/lang_pico/es-ES_zl0_sg.bin \
 vendor/motorola/solana/proprietary/icudt44l.dat:/system/usr/icu/icudt44l.dat \
-vendor/motorola/solana/proprietary/cdma_solana-keypad.kcm.bin:/system/usr/keychars/cdma_solana-keypad.kcm.bin \
 vendor/motorola/solana/proprietary/qwerty.kcm.bin:/system/usr/keychars/qwerty.kcm.bin \
 vendor/motorola/solana/proprietary/qwerty2.kcm.bin:/system/usr/keychars/qwerty2.kcm.bin \
 vendor/motorola/solana/proprietary/usb_keyboard_102_en_us.kcm.bin:/system/usr/keychars/usb_keyboard_102_en_us.kcm.bin \
 vendor/motorola/solana/proprietary/AVRCP.kl:/system/usr/keylayout/AVRCP.kl \
-vendor/motorola/solana/proprietary/cdma_solana-keypad.kl:/system/usr/keylayout/cdma_solana-keypad.kl \
 vendor/motorola/solana/proprietary/cpcap-key.kl:/system/usr/keylayout/cpcap-key.kl \
 vendor/motorola/solana/proprietary/qwerty.kl:/system/usr/keylayout/qwerty.kl \
 vendor/motorola/solana/proprietary/usb_keyboard_102_en_us.kl:/system/usr/keylayout/usb_keyboard_102_en_us.kl \
@@ -346,4 +347,5 @@ vendor/motorola/solana/proprietary/drm1_func_test:/system/xbin/drm1_func_test \
 vendor/motorola/solana/proprietary/run_backup:/system/xbin/run_backup \
 vendor/motorola/solana/proprietary/run_restore:/system/xbin/run_restore \
 vendor/motorola/solana/proprietary/ssmgrd:/system/xbin/ssmgrd
+
 
