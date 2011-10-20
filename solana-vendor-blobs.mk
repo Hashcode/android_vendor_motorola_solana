@@ -17,8 +17,6 @@
 # system/app
 PRODUCT_COPY_FILES += \
     vendor/motorola/solana/proprietary/ChargeOnlyMode.apk:/system/app/ChargeOnlyMode.apk \
-    vendor/motorola/solana/proprietary/GlobalNwSwitch.apk:/system/app/GlobalNwSwitch.apk \
-    vendor/motorola/solana/proprietary/GlobalUnplug.apk:/system/app/GlobalUnplug.apk \
     vendor/motorola/solana/proprietary/PhoneConfig.apk:/system/app/PhoneConfig.apk \
     vendor/motorola/solana/proprietary/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/motorola/solana/proprietary/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
@@ -170,6 +168,31 @@ vendor/motorola/solana/proprietary/fw_wlan1281_AP.bin:/system/etc/wifi/fw_wlan12
 vendor/motorola/solana/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
 
 # system/lib
+#vendor/motorola/solana/proprietary/libaudio.so:/system/lib/libaudio.so \
+#vendor/motorola/solana/proprietary/libaudiopolicy.so:/system/lib/libaudiopolicy.so \
+#vendor/motorola/solana/proprietary/libomxcameraadapter.so:/system/lib/libomxcameraadapter.so \
+#vendor/motorola/solana/proprietary/libopencore_common.so:/system/lib/libopencore_common.so \
+#vendor/motorola/solana/proprietary/libopencore_author.so:/system/lib/libopencore_author.so \
+#vendor/motorola/solana/proprietary/libopencore_download.so:/system/lib/libopencore_download.so \
+#vendor/motorola/solana/proprietary/libopencore_downloadreg.so:/system/lib/libopencore_downloadreg.so \
+#vendor/motorola/solana/proprietary/libopencore_mp4local.so:/system/lib/libopencore_mp4local.so \
+#vendor/motorola/solana/proprietary/libopencore_mp4localreg.so:/system/lib/libopencore_mp4localreg.so \
+#vendor/motorola/solana/proprietary/libopencore_net_support.so:/system/lib/libopencore_net_support.so \
+#vendor/motorola/solana/proprietary/libopencore_player.so:/system/lib/libopencore_player.so \
+#vendor/motorola/solana/proprietary/libopencore_rtsp.so:/system/lib/libopencore_rtsp.so \
+#vendor/motorola/solana/proprietary/libopencore_rtspreg.so:/system/lib/libopencore_rtspreg.so \
+#vendor/motorola/solana/proprietary/libopencorehw.so:/system/lib/libopencorehw.so \
+#vendor/motorola/solana/proprietary/libfm_stack.so:/system/lib/libfm_stack.so \
+#vendor/motorola/solana/proprietary/libfmchr.so:/system/lib/libfmchr.so \
+#vendor/motorola/solana/proprietary/libomx_aacdec_sharedlibrary.so:/system/lib/libomx_aacdec_sharedlibrary.so \
+#vendor/motorola/solana/proprietary/libomx_amrdec_sharedlibrary.so:/system/lib/libomx_amrdec_sharedlibrary.so \
+#vendor/motorola/solana/proprietary/libomx_amrenc_sharedlibrary.so:/system/lib/libomx_amrenc_sharedlibrary.so \
+#vendor/motorola/solana/proprietary/libomx_arcomxcore_sharedlibrary.so:/system/lib/libomx_arcomxcore_sharedlibrary.so \
+#vendor/motorola/solana/proprietary/libomx_avcdec_sharedlibrary.so:/system/lib/libomx_avcdec_sharedlibrary.so \
+#vendor/motorola/solana/proprietary/libomx_m4vdec_sharedlibrary.so:/system/lib/libomx_m4vdec_sharedlibrary.so \
+#vendor/motorola/solana/proprietary/libomx_mp3dec_sharedlibrary.so:/system/lib/libomx_mp3dec_sharedlibrary.so \
+#vendor/motorola/solana/proprietary/libomx_sharedlibrary.so:/system/lib/libomx_sharedlibrary.so \
+
 PRODUCT_COPY_FILES += \
 vendor/motorola/solana/proprietary/libFMRadio.so:/system/lib/libFMRadio.so \
 vendor/motorola/solana/proprietary/libIMGegl.so:/system/lib/libIMGegl.so \
@@ -190,9 +213,7 @@ vendor/motorola/solana/proprietary/libarcomx_wmadec_sharedlibrary.so:/system/lib
 vendor/motorola/solana/proprietary/libarcplatform.so:/system/lib/libarcplatform.so \
 vendor/motorola/solana/proprietary/libarcsoft.so:/system/lib/libarcsoft.so \
 vendor/motorola/solana/proprietary/libarcstagefright.so:/system/lib/libarcstagefright.so \
-vendor/motorola/solana/proprietary/libaudio.so:/system/lib/libaudio.so \
 vendor/motorola/solana/proprietary/libaudio_ext.so:/system/lib/libaudio_ext.so \
-vendor/motorola/solana/proprietary/libaudiopolicy.so:/system/lib/libaudiopolicy.so \
 vendor/motorola/solana/proprietary/libaudiopolicy_ext.so:/system/lib/libaudiopolicy_ext.so \
 vendor/motorola/solana/proprietary/libbattd.so:/system/lib/libbattd.so \
 vendor/motorola/solana/proprietary/libbcbmsg.so:/system/lib/libbcbmsg.so \
@@ -207,8 +228,6 @@ vendor/motorola/solana/proprietary/libdmjavaplugin.so:/system/lib/libdmjavaplugi
 vendor/motorola/solana/proprietary/libdrm.so:/system/lib/libdrm.so \
 vendor/motorola/solana/proprietary/libexempi.so:/system/lib/libexempi.so \
 vendor/motorola/solana/proprietary/libextdisp.so:/system/lib/libextdisp.so \
-vendor/motorola/solana/proprietary/libfm_stack.so:/system/lib/libfm_stack.so \
-vendor/motorola/solana/proprietary/libfmchr.so:/system/lib/libfmchr.so \
 vendor/motorola/solana/proprietary/libfmradio_jni.so:/system/lib/libfmradio_jni.so \
 vendor/motorola/solana/proprietary/libfmradioplayer.so:/system/lib/libfmradioplayer.so \
 vendor/motorola/solana/proprietary/libgdx.so:/system/lib/libgdx.so \
@@ -246,26 +265,6 @@ vendor/motorola/solana/proprietary/libnativedrm1.so:/system/lib/libnativedrm1.so
 vendor/motorola/solana/proprietary/libnbgm.so:/system/lib/libnbgm.so \
 vendor/motorola/solana/proprietary/libnetutils.so:/system/lib/libnetutils.so \
 vendor/motorola/solana/proprietary/libnmea.so:/system/lib/libnmea.so \
-vendor/motorola/solana/proprietary/libomx_aacdec_sharedlibrary.so:/system/lib/libomx_aacdec_sharedlibrary.so \
-vendor/motorola/solana/proprietary/libomx_amrdec_sharedlibrary.so:/system/lib/libomx_amrdec_sharedlibrary.so \
-vendor/motorola/solana/proprietary/libomx_amrenc_sharedlibrary.so:/system/lib/libomx_amrenc_sharedlibrary.so \
-vendor/motorola/solana/proprietary/libomx_arcomxcore_sharedlibrary.so:/system/lib/libomx_arcomxcore_sharedlibrary.so \
-vendor/motorola/solana/proprietary/libomx_avcdec_sharedlibrary.so:/system/lib/libomx_avcdec_sharedlibrary.so \
-vendor/motorola/solana/proprietary/libomx_m4vdec_sharedlibrary.so:/system/lib/libomx_m4vdec_sharedlibrary.so \
-vendor/motorola/solana/proprietary/libomx_mp3dec_sharedlibrary.so:/system/lib/libomx_mp3dec_sharedlibrary.so \
-vendor/motorola/solana/proprietary/libomx_sharedlibrary.so:/system/lib/libomx_sharedlibrary.so \
-vendor/motorola/solana/proprietary/libomxcameraadapter.so:/system/lib/libomxcameraadapter.so \
-vendor/motorola/solana/proprietary/libopencore_author.so:/system/lib/libopencore_author.so \
-vendor/motorola/solana/proprietary/libopencore_common.so:/system/lib/libopencore_common.so \
-vendor/motorola/solana/proprietary/libopencore_download.so:/system/lib/libopencore_download.so \
-vendor/motorola/solana/proprietary/libopencore_downloadreg.so:/system/lib/libopencore_downloadreg.so \
-vendor/motorola/solana/proprietary/libopencore_mp4local.so:/system/lib/libopencore_mp4local.so \
-vendor/motorola/solana/proprietary/libopencore_mp4localreg.so:/system/lib/libopencore_mp4localreg.so \
-vendor/motorola/solana/proprietary/libopencore_net_support.so:/system/lib/libopencore_net_support.so \
-vendor/motorola/solana/proprietary/libopencore_player.so:/system/lib/libopencore_player.so \
-vendor/motorola/solana/proprietary/libopencore_rtsp.so:/system/lib/libopencore_rtsp.so \
-vendor/motorola/solana/proprietary/libopencore_rtspreg.so:/system/lib/libopencore_rtspreg.so \
-vendor/motorola/solana/proprietary/libopencorehw.so:/system/lib/libopencorehw.so \
 vendor/motorola/solana/proprietary/libpanorama.so:/system/lib/libpanorama.so \
 vendor/motorola/solana/proprietary/libpanorama_jni.so:/system/lib/libpanorama_jni.so \
 vendor/motorola/solana/proprietary/libphotoflow.so:/system/lib/libphotoflow.so \
@@ -301,32 +300,41 @@ vendor/motorola/solana/proprietary/libvsuite_mot_vs32_cmb103.so:/system/lib/libv
 vendor/motorola/solana/proprietary/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
 vendor/motorola/solana/proprietary/libxmpcore.so:/system/lib/libxmpcore.so \
 
-# system/lib/(others)
+# system/lib/ducati
 PRODUCT_COPY_FILES += \
 vendor/motorola/solana/proprietary/Notify_MPUAPP_reroute_Test_Core1.xem3:/system/lib/ducati/Notify_MPUAPP_reroute_Test_Core1.xem3 \
 vendor/motorola/solana/proprietary/Notify_MPUSYS_Test_Core0.xem3:/system/lib/ducati/Notify_MPUSYS_Test_Core0.xem3 \
 vendor/motorola/solana/proprietary/Notify_MPUSYS_reroute_Test_Core0.xem3:/system/lib/ducati/Notify_MPUSYS_reroute_Test_Core0.xem3 \
 vendor/motorola/solana/proprietary/base_image_app_m3.xem3:/system/lib/ducati/base_image_app_m3.xem3 \
+
+# system/lib/egl
+PRODUCT_COPY_FILES += \
 vendor/motorola/solana/proprietary/libEGL_POWERVR_SGX540_120.so:/system/lib/egl/libEGL_POWERVR_SGX540_120.so \
 vendor/motorola/solana/proprietary/libGLESv1_CM_POWERVR_SGX540_120.so:/system/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
 vendor/motorola/solana/proprietary/libGLESv2_POWERVR_SGX540_120.so:/system/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
 vendor/motorola/solana/proprietary/libeglinfo.so:/system/lib/egl/libeglinfo.so \
 vendor/motorola/solana/proprietary/libgles1_texture_stream.so:/system/lib/egl/libgles1_texture_stream.so \
 vendor/motorola/solana/proprietary/libgles2_texture_stream.so:/system/lib/egl/libgles2_texture_stream.so \
-vendor/motorola/solana/proprietary/acoustics.default.so:/system/lib/hw/acoustics.default.so \
-vendor/motorola/solana/proprietary/alsa.default.so:/system/lib/hw/alsa.default.so \
-vendor/motorola/solana/proprietary/alsa.omap4.so:/system/lib/hw/alsa.omap4.so \
+
+# system/lib/hw
+#vendor/motorola/solana/proprietary/acoustics.default.so:/system/lib/hw/acoustics.default.so \
+#vendor/motorola/solana/proprietary/alsa.default.so:/system/lib/hw/alsa.default.so \
+PRODUCT_COPY_FILES += \
 vendor/motorola/solana/proprietary/gps.solana.so:/system/lib/hw/gps.solana.so \
+vendor/motorola/solana/proprietary/alsa.omap4.so:/system/lib/hw/alsa.omap4.so \
 vendor/motorola/solana/proprietary/gralloc.omap4.so:/system/lib/hw/gralloc.omap4.so \
 vendor/motorola/solana/proprietary/lights.solana.so:/system/lib/hw/lights.solana.so \
 vendor/motorola/solana/proprietary/sensors.solana.so:/system/lib/hw/sensors.solana.so \
 
-# system (other)
+# system/tts
 PRODUCT_COPY_FILES += \
 vendor/motorola/solana/proprietary/en-US_lh0_sg.bin:/system/tts/lang_pico/en-US_lh0_sg.bin \
 vendor/motorola/solana/proprietary/en-US_ta.bin:/system/tts/lang_pico/en-US_ta.bin \
 vendor/motorola/solana/proprietary/es-ES_ta.bin:/system/tts/lang_pico/es-ES_ta.bin \
 vendor/motorola/solana/proprietary/es-ES_zl0_sg.bin:/system/tts/lang_pico/es-ES_zl0_sg.bin \
+
+# system/usr
+PRODUCT_COPY_FILES += \
 vendor/motorola/solana/proprietary/icudt44l.dat:/system/usr/icu/icudt44l.dat \
 vendor/motorola/solana/proprietary/qwerty.kcm.bin:/system/usr/keychars/qwerty.kcm.bin \
 vendor/motorola/solana/proprietary/qwerty2.kcm.bin:/system/usr/keychars/qwerty2.kcm.bin \
@@ -342,6 +350,9 @@ vendor/motorola/solana/proprietary/hda:/system/usr/share/alsa/init/hda \
 vendor/motorola/solana/proprietary/help:/system/usr/share/alsa/init/help \
 vendor/motorola/solana/proprietary/info:/system/usr/share/alsa/init/info \
 vendor/motorola/solana/proprietary/test:/system/usr/share/alsa/init/test \
+
+# system/xbin
+PRODUCT_COPY_FILES += \
 vendor/motorola/solana/proprietary/backup:/system/xbin/backup \
 vendor/motorola/solana/proprietary/drm1_func_test:/system/xbin/drm1_func_test \
 vendor/motorola/solana/proprietary/run_backup:/system/xbin/run_backup \
