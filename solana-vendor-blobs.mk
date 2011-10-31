@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
 # system/bin
 #vendor/motorola/solana/proprietary/fmradioserver:/system/bin/fmradioserver \
 #vendor/motorola/solana/proprietary/IttiamAacEncoder_Test:/system/bin/IttiamAacEncoder_Test \
+
 PRODUCT_COPY_FILES += \
 vendor/motorola/solana/proprietary/tf_daemon:/system/bin/tf_daemon \
 vendor/motorola/solana/proprietary/Hostapd:/system/bin/Hostapd \
@@ -185,6 +186,8 @@ vendor/motorola/solana/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd
 #vendor/motorola/solana/proprietary/libfmradio_jni.so:/system/lib/libfmradio_jni.so \
 #vendor/motorola/solana/proprietary/libfmradioplayer.so:/system/lib/libfmradioplayer.so \
 #vendor/motorola/solana/proprietary/libhdr_interface.so:/system/lib/libhdr_interface.so \
+
+# system/lib
 PRODUCT_COPY_FILES += \
 vendor/motorola/solana/proprietary/libIMGegl.so:/system/lib/libIMGegl.so \
 vendor/motorola/solana/proprietary/libPVRScopeServices.so:/system/lib/libPVRScopeServices.so \
