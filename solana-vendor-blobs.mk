@@ -22,11 +22,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/solana/proprietary/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
 
 # system/bin
+#vendor/motorola/solana/proprietary/fmradioserver:/system/bin/fmradioserver \
+#vendor/motorola/solana/proprietary/IttiamAacEncoder_Test:/system/bin/IttiamAacEncoder_Test \
 PRODUCT_COPY_FILES += \
-vendor/motorola/solana/proprietary/fmradioserver:/system/bin/fmradioserver \
 vendor/motorola/solana/proprietary/tf_daemon:/system/bin/tf_daemon \
 vendor/motorola/solana/proprietary/Hostapd:/system/bin/Hostapd \
-vendor/motorola/solana/proprietary/IttiamAacEncoder_Test:/system/bin/IttiamAacEncoder_Test \
 vendor/motorola/solana/proprietary/akmd2:/system/bin/akmd2 \
 vendor/motorola/solana/proprietary/ap_gain.bin:/system/bin/ap_gain.bin \
 vendor/motorola/solana/proprietary/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
@@ -168,28 +168,31 @@ vendor/motorola/solana/proprietary/fw_wlan1281_AP.bin:/system/etc/wifi/fw_wlan12
 vendor/motorola/solana/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
 
 # system/lib
+#vendor/motorola/solana/proprietary/libFMRadio.so:/system/lib/libFMRadio.so \
+#vendor/motorola/solana/proprietary/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOMX.ITTIAM.AAC.encode.so \
+#vendor/motorola/solana/proprietary/libOMX.ITTIAM.WMA.decode.so:/system/lib/libOMX.ITTIAM.WMA.decode.so \
+#vendor/motorola/solana/proprietary/libPhotoEditor.so:/system/lib/libPhotoEditor.so \
+#vendor/motorola/solana/proprietary/libarcaudiogetinfo.so:/system/lib/libarcaudiogetinfo.so \
+#vendor/motorola/solana/proprietary/libarcomx_evrcdec_sharedlibrary.so:/system/lib/libarcomx_evrcdec_sharedlibrary.so \
+#vendor/motorola/solana/proprietary/libarcomx_qcelpdec_sharedlibrary.so:/system/lib/libarcomx_qcelpdec_sharedlibrary.so \
+#vendor/motorola/solana/proprietary/libarcomx_qcelpenc_sharedlibrary.so:/system/lib/libarcomx_qcelpenc_sharedlibrary.so \
+#vendor/motorola/solana/proprietary/libarcomx_wmadec_sharedlibrary.so:/system/lib/libarcomx_wmadec_sharedlibrary.so \
+#vendor/motorola/solana/proprietary/libarcplatform.so:/system/lib/libarcplatform.so \
+#vendor/motorola/solana/proprietary/libarcsoft.so:/system/lib/libarcsoft.so \
+#vendor/motorola/solana/proprietary/libarcstagefright.so:/system/lib/libarcstagefright.so \
+#vendor/motorola/solana/proprietary/libaudio_ext.so:/system/lib/libaudio_ext.so \
+#vendor/motorola/solana/proprietary/libaudiopolicy_ext.so:/system/lib/libaudiopolicy_ext.so \
+#vendor/motorola/solana/proprietary/libfmradio_jni.so:/system/lib/libfmradio_jni.so \
+#vendor/motorola/solana/proprietary/libfmradioplayer.so:/system/lib/libfmradioplayer.so \
+#vendor/motorola/solana/proprietary/libhdr_interface.so:/system/lib/libhdr_interface.so \
 PRODUCT_COPY_FILES += \
-vendor/motorola/solana/proprietary/libFMRadio.so:/system/lib/libFMRadio.so \
 vendor/motorola/solana/proprietary/libIMGegl.so:/system/lib/libIMGegl.so \
-vendor/motorola/solana/proprietary/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOMX.ITTIAM.AAC.encode.so \
-vendor/motorola/solana/proprietary/libOMX.ITTIAM.WMA.decode.so:/system/lib/libOMX.ITTIAM.WMA.decode.so \
 vendor/motorola/solana/proprietary/libPVRScopeServices.so:/system/lib/libPVRScopeServices.so \
-vendor/motorola/solana/proprietary/libPhotoEditor.so:/system/lib/libPhotoEditor.so \
 vendor/motorola/solana/proprietary/libSwypeCore.so:/system/lib/libSwypeCore.so \
 vendor/motorola/solana/proprietary/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
 vendor/motorola/solana/proprietary/libXmp_jni.so:/system/lib/libXmp_jni.so \
 vendor/motorola/solana/proprietary/libadkutils.so:/system/lib/libadkutils.so \
 vendor/motorola/solana/proprietary/libamcm.so:/system/lib/libamcm.so \
-vendor/motorola/solana/proprietary/libarcaudiogetinfo.so:/system/lib/libarcaudiogetinfo.so \
-vendor/motorola/solana/proprietary/libarcomx_evrcdec_sharedlibrary.so:/system/lib/libarcomx_evrcdec_sharedlibrary.so \
-vendor/motorola/solana/proprietary/libarcomx_qcelpdec_sharedlibrary.so:/system/lib/libarcomx_qcelpdec_sharedlibrary.so \
-vendor/motorola/solana/proprietary/libarcomx_qcelpenc_sharedlibrary.so:/system/lib/libarcomx_qcelpenc_sharedlibrary.so \
-vendor/motorola/solana/proprietary/libarcomx_wmadec_sharedlibrary.so:/system/lib/libarcomx_wmadec_sharedlibrary.so \
-vendor/motorola/solana/proprietary/libarcplatform.so:/system/lib/libarcplatform.so \
-vendor/motorola/solana/proprietary/libarcsoft.so:/system/lib/libarcsoft.so \
-vendor/motorola/solana/proprietary/libarcstagefright.so:/system/lib/libarcstagefright.so \
-vendor/motorola/solana/proprietary/libaudio_ext.so:/system/lib/libaudio_ext.so \
-vendor/motorola/solana/proprietary/libaudiopolicy_ext.so:/system/lib/libaudiopolicy_ext.so \
 vendor/motorola/solana/proprietary/libbattd.so:/system/lib/libbattd.so \
 vendor/motorola/solana/proprietary/libbcbmsg.so:/system/lib/libbcbmsg.so \
 vendor/motorola/solana/proprietary/libcaps.so:/system/lib/libcaps.so \
@@ -203,13 +206,10 @@ vendor/motorola/solana/proprietary/libdmjavaplugin.so:/system/lib/libdmjavaplugi
 vendor/motorola/solana/proprietary/libdrm.so:/system/lib/libdrm.so \
 vendor/motorola/solana/proprietary/libexempi.so:/system/lib/libexempi.so \
 vendor/motorola/solana/proprietary/libextdisp.so:/system/lib/libextdisp.so \
-vendor/motorola/solana/proprietary/libfmradio_jni.so:/system/lib/libfmradio_jni.so \
-vendor/motorola/solana/proprietary/libfmradioplayer.so:/system/lib/libfmradioplayer.so \
 vendor/motorola/solana/proprietary/libgdx.so:/system/lib/libgdx.so \
 vendor/motorola/solana/proprietary/libglslcompiler.so:/system/lib/libglslcompiler.so \
 vendor/motorola/solana/proprietary/libhdcp.so:/system/lib/libhdcp.so \
 vendor/motorola/solana/proprietary/libhdmi.so:/system/lib/libhdmi.so \
-vendor/motorola/solana/proprietary/libhdr_interface.so:/system/lib/libhdr_interface.so \
 vendor/motorola/solana/proprietary/libhostapd_client.so:/system/lib/libhostapd_client.so \
 vendor/motorola/solana/proprietary/libimage_jni.so:/system/lib/libimage_jni.so \
 vendor/motorola/solana/proprietary/libipsec.so:/system/lib/libipsec.so \
