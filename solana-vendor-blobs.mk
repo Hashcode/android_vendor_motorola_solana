@@ -170,8 +170,6 @@ vendor/motorola/solana/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd
 
 # system/lib
 #vendor/motorola/solana/proprietary/libFMRadio.so:/system/lib/libFMRadio.so \
-#vendor/motorola/solana/proprietary/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOMX.ITTIAM.AAC.encode.so \
-#vendor/motorola/solana/proprietary/libOMX.ITTIAM.WMA.decode.so:/system/lib/libOMX.ITTIAM.WMA.decode.so \
 #vendor/motorola/solana/proprietary/libPhotoEditor.so:/system/lib/libPhotoEditor.so \
 #vendor/motorola/solana/proprietary/libarcaudiogetinfo.so:/system/lib/libarcaudiogetinfo.so \
 #vendor/motorola/solana/proprietary/libarcomx_evrcdec_sharedlibrary.so:/system/lib/libarcomx_evrcdec_sharedlibrary.so \
@@ -190,6 +188,8 @@ vendor/motorola/solana/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd
 # system/lib
 PRODUCT_COPY_FILES += \
 vendor/motorola/solana/proprietary/libIMGegl.so:/system/lib/libIMGegl.so \
+vendor/motorola/solana/proprietary/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOMX.ITTIAM.AAC.encode.so \
+vendor/motorola/solana/proprietary/libOMX.ITTIAM.WMA.decode.so:/system/lib/libOMX.ITTIAM.WMA.decode.so \
 vendor/motorola/solana/proprietary/libPVRScopeServices.so:/system/lib/libPVRScopeServices.so \
 vendor/motorola/solana/proprietary/libSwypeCore.so:/system/lib/libSwypeCore.so \
 vendor/motorola/solana/proprietary/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
