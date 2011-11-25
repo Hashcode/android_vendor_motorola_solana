@@ -18,15 +18,12 @@
 #PRODUCT_COPY_FILES += \\
 #vendor/motorola/solana/proprietary/tf_daemon:/system/bin/tf_daemon \
 #vendor/motorola/solana/proprietary/Hostapd:/system/bin/Hostapd \
-#vendor/motorola/solana/proprietary/ap_gain.bin:/system/bin/ap_gain.bin \
-#vendor/motorola/solana/proprietary/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
 #vendor/motorola/solana/proprietary/batch:/system/bin/batch \
 #vendor/motorola/solana/proprietary/btcmd:/system/bin/btcmd \
 #vendor/motorola/solana/proprietary/bthelp:/system/bin/bthelp \
 #vendor/motorola/solana/proprietary/bttest_mot:/system/bin/bttest_mot \
 #vendor/motorola/solana/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
 #vendor/motorola/solana/proprietary/charge_only_mode:/system/bin/charge_only_mode \
-#vendor/motorola/solana/proprietary/chat-ril:/system/bin/chat-ril \
 #vendor/motorola/solana/proprietary/dbvc_atvc_property_set:/system/bin/dbvc_atvc_property_set \
 #vendor/motorola/solana/proprietary/dlnasrv:/system/bin/dlnasrv \
 #vendor/motorola/solana/proprietary/dmt:/system/bin/dmt \
@@ -42,44 +39,43 @@
 #vendor/motorola/solana/proprietary/hdcp-mknod:/system/bin/hdcp-mknod \
 #vendor/motorola/solana/proprietary/ip:/system/bin/ip \
 #vendor/motorola/solana/proprietary/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
-#vendor/motorola/solana/proprietary/mdm_panicd:/system/bin/mdm_panicd \
 #vendor/motorola/solana/proprietary/memtest_mode:/system/bin/memtest_mode \
-#vendor/motorola/solana/proprietary/modemlog:/system/bin/modemlog \
 #vendor/motorola/solana/proprietary/mot_boot_mode:/system/bin/mot_boot_mode \
 #vendor/motorola/solana/proprietary/motobox:/system/bin/motobox \
 #vendor/motorola/solana/proprietary/napics.sh:/system/bin/napics.sh \
-#vendor/motorola/solana/proprietary/pppd-ril:/system/bin/pppd-ril \
-#vendor/motorola/solana/proprietary/rild:/system/bin/rild \
 #vendor/motorola/solana/proprietary/secclkd:/system/bin/secclkd \
 #vendor/motorola/solana/proprietary/smc_pa_ctrl:/system/bin/smc_pa_ctrl \
 #vendor/motorola/solana/proprietary/start_enc_mgt_tool.sh:/system/bin/start_enc_mgt_tool.sh \
 #vendor/motorola/solana/proprietary/startup_smc.sh:/system/bin/startup_smc.sh \
 #vendor/motorola/solana/proprietary/tcmd:/system/bin/tcmd \
 #vendor/motorola/solana/proprietary/tcmdhelp:/system/bin/tcmdhelp \
-#vendor/motorola/solana/proprietary/testpppd:/system/bin/testpppd \
-#vendor/motorola/solana/proprietary/tiap_loader:/system/bin/tiap_loader \
 #vendor/motorola/solana/proprietary/tstmetainfo:/system/bin/tstmetainfo \
 #vendor/motorola/solana/proprietary/tty2ttyd:/system/bin/tty2ttyd \
 #vendor/motorola/solana/proprietary/tund:/system/bin/tund \
-#vendor/motorola/solana/proprietary/usbd:/system/bin/usbd \
 #vendor/motorola/solana/proprietary/vold:/system/bin/vold \
 #vendor/motorola/solana/proprietary/vpnclientpm:/system/bin/vpnclientpm \
-#vendor/motorola/solana/proprietary/whisperd:/system/bin/whisperd \
 
 PRODUCT_COPY_FILES += \
 vendor/motorola/solana/proprietary/akmd2:/system/bin/akmd2 \
+vendor/motorola/solana/proprietary/ap_gain.bin:/system/bin/ap_gain.bin \
+vendor/motorola/solana/proprietary/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
 vendor/motorola/solana/proprietary/battd:/system/bin/battd \
+vendor/motorola/solana/proprietary/chat-ril:/system/bin/chat-ril \
+vendor/motorola/solana/proprietary/mdm_panicd:/system/bin/mdm_panicd \
+vendor/motorola/solana/proprietary/modemlog:/system/bin/modemlog \
+vendor/motorola/solana/proprietary/pppd-ril:/system/bin/pppd-ril \
+vendor/motorola/solana/proprietary/rild:/system/bin/rild \
+vendor/motorola/solana/proprietary/testpppd:/system/bin/testpppd \
+vendor/motorola/solana/proprietary/tiap_loader:/system/bin/tiap_loader \
+vendor/motorola/solana/proprietary/usbd:/system/bin/usbd \
+vendor/motorola/solana/proprietary/whisperd:/system/bin/whisperd \
 
-#vendor/motorola/solana/proprietary/backup_targets.csv:/system/etc/backup_targets.csv \
-#vendor/motorola/solana/proprietary/btpan.conf:/system/etc/btpan.conf \
-#vendor/motorola/solana/proprietary/dbus.conf:/system/etc/dbus.conf \
-#vendor/motorola/solana/proprietary/smc_android_cfg.ini:/system/etc/smc_android_cfg.ini \
-#vendor/motorola/solana/proprietary/smc_pa.ift:/system/etc/smc_pa.ift \
-#vendor/motorola/solana/proprietary/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
 
 # system/etc
 PRODUCT_COPY_FILES += \
 vendor/motorola/solana/proprietary/01_Vendor_ti_omx.cfg:/system/etc/01_Vendor_ti_omx.cfg \
+vendor/motorola/solana/proprietary/backup_targets.csv:/system/etc/backup_targets.csv \
+vendor/motorola/solana/proprietary/btpan.conf:/system/etc/btpan.conf \
 vendor/motorola/solana/proprietary/ecryptfs.exc:/system/etc/ecryptfs.exc \
 vendor/motorola/solana/proprietary/ecryptfs.tab:/system/etc/ecryptfs.tab \
 vendor/motorola/solana/proprietary/event-log-tags:/system/etc/event-log-tags \
@@ -90,72 +86,76 @@ vendor/motorola/solana/proprietary/opl.dat.enc:/system/etc/opl.dat.enc \
 vendor/motorola/solana/proprietary/priority_notifications_config.xml:/system/etc/priority_notifications_config.xml \
 vendor/motorola/solana/proprietary/pvplayer.cfg:/system/etc/pvplayer.cfg \
 vendor/motorola/solana/proprietary/supportedlocales.conf:/system/etc/supportedlocales.conf \
+vendor/motorola/solana/proprietary/dbus.conf:/system/etc/dbus.conf \
+vendor/motorola/solana/proprietary/smc_android_cfg.ini:/system/etc/smc_android_cfg.ini \
+vendor/motorola/solana/proprietary/smc_pa.ift:/system/etc/smc_pa.ift \
+vendor/motorola/solana/proprietary/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
 
 # system/etc/(others)
-#PRODUCT_COPY_FILES += \
-#vendor/motorola/solana/proprietary/TIInit_10.5.20.bts:/system/etc/firmware/TIInit_10.5.20.bts \
-#vendor/motorola/solana/proprietary/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
-#vendor/motorola/solana/proprietary/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
-#vendor/motorola/solana/proprietary/fm_rx_init_1283.2.bts:/system/etc/firmware/fm_rx_init_1283.2.bts \
-#vendor/motorola/solana/proprietary/fmc_init_1283.2.bts:/system/etc/firmware/fmc_init_1283.2.bts \
-#vendor/motorola/solana/proprietary/vsuite_config.xml:/system/etc/nuance/vsuite_config.xml \
-#vendor/motorola/solana/proprietary/R8_MVEN002_LD2_ND0_IR0_SH0_FL1_SVEN002_DCCID1039.cfg:/system/etc/omapcam/R8_MVEN002_LD2_ND0_IR0_SH0_FL1_SVEN002_DCCID1039.cfg \
-#vendor/motorola/solana/proprietary/SEN2.cfg:/system/etc/omapcam/SEN2.cfg \
-#vendor/motorola/solana/proprietary/cid1039_cid1039_capabilities.bin:/system/etc/omapcam/module1.bak/cid1039_cid1039_capabilities.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_alg_3a_ae_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_ae_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_alg_3a_ae_mms2_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_ae_mms2_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_alg_3a_af_affw_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_affw_dcc_tuning.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_alg_3a_af_caf_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_caf_dcc_tuning.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_alg_3a_af_hllc_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_hllc_dcc_tuning.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_alg_3a_af_saf_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_saf_dcc_tuning.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_alg_adjust_rgb2rgb_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_adjust_rgb2rgb_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_awb_alg_ti3_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_awb_alg_ti3_tuning.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ducati_eff_tun.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ducati_eff_tun.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ducati_gamma.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ducati_gamma.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ducati_lsc_2d.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ducati_lsc_2d.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ducati_nsf_ldc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ducati_nsf_ldc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_gbce_sw1_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_gbce_sw1_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_golden_module_calibration.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_golden_module_calibration.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_h3a_aewb_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_h3a_aewb_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_3d_lut_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_3d_lut_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_car_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_car_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_cfai_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_cfai_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_cgs_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_cgs_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_dpc_lut_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_dpc_lut_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_dpc_otf.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_dpc_otf.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_ee_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_ee_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_gbce_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_gbce_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_gic_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_gic_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_lsc_poly_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_lsc_poly_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_nf1_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_nf1_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_nf2_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_nf2_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_rgb2rgb_1_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rgb2rgb_1_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_rgb2rgb_2_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rgb2rgb_2_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_rgb2yuv_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rgb2yuv_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_rsz_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rsz_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_yuv444_to_yuv422_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_yuv444_to_yuv422_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_isif_clamp_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_isif_clamp_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_isif_csc_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_isif_csc_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_iss_glbce3_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_glbce3_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_iss_lbce_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_lbce_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_iss_scene_modes_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_scene_modes_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_iss_vstab_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_vstab_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ldc_cac_cfg_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ldc_cac_cfg_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_ldc_cfg_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ldc_cfg_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_lsc_interp.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_lsc_interp.bin \
-#vendor/motorola/solana/proprietary/cid1039_ov8820_vnf_cfg_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_vnf_cfg_dcc.bin \
-#vendor/motorola/solana/proprietary/cid1040_ov7739_sensor_config_dcc.bin:/system/etc/omapcam/module2/cid1040_ov7739_sensor_config_dcc.bin \
-#vendor/motorola/solana/proprietary/pppd-ril.options:/system/etc/ppp/peers/pppd-ril.options \
-#vendor/motorola/solana/proprietary/en_US.aff:system/etc/spellchecker/en_US.aff \
-#vendor/motorola/solana/proprietary/en_US.dic:system/etc/spellchecker/en_US.dic \
-#vendor/motorola/solana/proprietary/es_ES.aff:system/etc/spellchecker/es_ES.aff \
-#vendor/motorola/solana/proprietary/es_ES.dic:system/etc/spellchecker/es_ES.dic \
-#vendor/motorola/solana/proprietary/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
-#vendor/motorola/solana/proprietary/mve.ini:/system/etc/VideoEditorLite/mve.ini \
-#vendor/motorola/solana/proprietary/MeaningFulLocation.vsensor:system/etc/vsensor.d/MeaningFulLocation.vsensor \
-#vendor/motorola/solana/proprietary/fw_wlan1281.bin:/system/etc/wifi/fw_wlan1281.bin \
-#vendor/motorola/solana/proprietary/fw_wlan1281_AP.bin:/system/etc/wifi/fw_wlan1281_AP.bin \
-#vendor/motorola/solana/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
+PRODUCT_COPY_FILES += \
+vendor/motorola/solana/proprietary/TIInit_10.5.20.bts:/system/etc/firmware/TIInit_10.5.20.bts \
+vendor/motorola/solana/proprietary/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
+vendor/motorola/solana/proprietary/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
+vendor/motorola/solana/proprietary/fm_rx_init_1283.2.bts:/system/etc/firmware/fm_rx_init_1283.2.bts \
+vendor/motorola/solana/proprietary/fmc_init_1283.2.bts:/system/etc/firmware/fmc_init_1283.2.bts \
+vendor/motorola/solana/proprietary/vsuite_config.xml:/system/etc/nuance/vsuite_config.xml \
+vendor/motorola/solana/proprietary/R8_MVEN002_LD2_ND0_IR0_SH0_FL1_SVEN002_DCCID1039.cfg:/system/etc/omapcam/R8_MVEN002_LD2_ND0_IR0_SH0_FL1_SVEN002_DCCID1039.cfg \
+vendor/motorola/solana/proprietary/SEN2.cfg:/system/etc/omapcam/SEN2.cfg \
+vendor/motorola/solana/proprietary/cid1039_cid1039_capabilities.bin:/system/etc/omapcam/module1.bak/cid1039_cid1039_capabilities.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_alg_3a_ae_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_ae_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_alg_3a_ae_mms2_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_ae_mms2_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_alg_3a_af_affw_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_affw_dcc_tuning.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_alg_3a_af_caf_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_caf_dcc_tuning.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_alg_3a_af_hllc_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_hllc_dcc_tuning.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_alg_3a_af_saf_dcc_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_3a_af_saf_dcc_tuning.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_alg_adjust_rgb2rgb_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_alg_adjust_rgb2rgb_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_awb_alg_ti3_tuning.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_awb_alg_ti3_tuning.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ducati_eff_tun.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ducati_eff_tun.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ducati_gamma.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ducati_gamma.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ducati_lsc_2d.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ducati_lsc_2d.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ducati_nsf_ldc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ducati_nsf_ldc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_gbce_sw1_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_gbce_sw1_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_golden_module_calibration.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_golden_module_calibration.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_h3a_aewb_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_h3a_aewb_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_3d_lut_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_3d_lut_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_car_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_car_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_cfai_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_cfai_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_cgs_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_cgs_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_dpc_lut_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_dpc_lut_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_dpc_otf.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_dpc_otf.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_ee_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_ee_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_gbce_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_gbce_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_gic_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_gic_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_lsc_poly_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_lsc_poly_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_nf1_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_nf1_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_nf2_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_nf2_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_rgb2rgb_1_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rgb2rgb_1_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_rgb2rgb_2_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rgb2rgb_2_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_rgb2yuv_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rgb2yuv_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_rsz_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_rsz_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ipipe_yuv444_to_yuv422_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ipipe_yuv444_to_yuv422_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_isif_clamp_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_isif_clamp_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_isif_csc_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_isif_csc_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_iss_glbce3_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_glbce3_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_iss_lbce_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_lbce_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_iss_scene_modes_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_scene_modes_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_iss_vstab_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_iss_vstab_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ldc_cac_cfg_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ldc_cac_cfg_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_ldc_cfg_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_ldc_cfg_dcc.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_lsc_interp.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_lsc_interp.bin \
+vendor/motorola/solana/proprietary/cid1039_ov8820_vnf_cfg_dcc.bin:/system/etc/omapcam/module1.bak/cid1039_ov8820_vnf_cfg_dcc.bin \
+vendor/motorola/solana/proprietary/cid1040_ov7739_sensor_config_dcc.bin:/system/etc/omapcam/module2/cid1040_ov7739_sensor_config_dcc.bin \
+vendor/motorola/solana/proprietary/pppd-ril.options:/system/etc/ppp/peers/pppd-ril.options \
+vendor/motorola/solana/proprietary/en_US.aff:system/etc/spellchecker/en_US.aff \
+vendor/motorola/solana/proprietary/en_US.dic:system/etc/spellchecker/en_US.dic \
+vendor/motorola/solana/proprietary/es_ES.aff:system/etc/spellchecker/es_ES.aff \
+vendor/motorola/solana/proprietary/es_ES.dic:system/etc/spellchecker/es_ES.dic \
+vendor/motorola/solana/proprietary/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
+vendor/motorola/solana/proprietary/mve.ini:/system/etc/VideoEditorLite/mve.ini \
+vendor/motorola/solana/proprietary/MeaningFulLocation.vsensor:system/etc/vsensor.d/MeaningFulLocation.vsensor \
+vendor/motorola/solana/proprietary/fw_wlan1281.bin:/system/etc/wifi/fw_wlan1281.bin \
+vendor/motorola/solana/proprietary/fw_wlan1281_AP.bin:/system/etc/wifi/fw_wlan1281_AP.bin \
+vendor/motorola/solana/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
 
 # system/lib
 #vendor/motorola/solana/proprietary/libFMRadio.so:/system/lib/libFMRadio.so \
@@ -196,17 +196,6 @@ vendor/motorola/solana/proprietary/supportedlocales.conf:/system/etc/supportedlo
 #vendor/motorola/solana/proprietary/libmetainfo.so:/system/lib/libmetainfo.so \
 #vendor/motorola/solana/proprietary/libmirror.so:/system/lib/libmirror.so \
 #vendor/motorola/solana/proprietary/libmirrorjni.so:/system/lib/libmirrorjni.so \
-#vendor/motorola/solana/proprietary/libmot_atcmd.so:/system/lib/libmot_atcmd.so \
-#vendor/motorola/solana/proprietary/libmot_atcmd_mflex.so:/system/lib/libmot_atcmd_mflex.so \
-#vendor/motorola/solana/proprietary/libmot_bluetooth_jni.so:/system/lib/libmot_bluetooth_jni.so \
-#vendor/motorola/solana/proprietary/libmot_bthid_jni.so:/system/lib/libmot_bthid_jni.so \
-#vendor/motorola/solana/proprietary/libmot_btpan_jni.so:/system/lib/libmot_btpan_jni.so \
-#vendor/motorola/solana/proprietary/libmot_led.so:/system/lib/libmot_led.so \
-#vendor/motorola/solana/proprietary/libmotdrm1.so:/system/lib/libmotdrm1.so \
-#vendor/motorola/solana/proprietary/libmotdrm1_jni.so:/system/lib/libmotdrm1_jni.so \
-#vendor/motorola/solana/proprietary/libmoto_mdmctrl.so:/system/lib/libmoto_mdmctrl.so \
-#vendor/motorola/solana/proprietary/libmoto_netutil.so:/system/lib/libmoto_netutil.so \
-#vendor/motorola/solana/proprietary/libmoto_ril.so:/system/lib/libmoto_ril.so \
 #vendor/motorola/solana/proprietary/libmotodbgutils.so:/system/lib/libmotodbgutils.so \
 #vendor/motorola/solana/proprietary/libmtp_jni.so:/system/lib/libmtp_jni.so \
 #vendor/motorola/solana/proprietary/libmtpstack.so:/system/lib/libmtpstack.so \
@@ -219,14 +208,9 @@ vendor/motorola/solana/proprietary/supportedlocales.conf:/system/etc/supportedlo
 #vendor/motorola/solana/proprietary/libpanorama_jni.so:/system/lib/libpanorama_jni.so \
 #vendor/motorola/solana/proprietary/libphotoflow.so:/system/lib/libphotoflow.so \
 #vendor/motorola/solana/proprietary/libpkip.so:/system/lib/libpkip.so \
-#vendor/motorola/solana/proprietary/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
 #vendor/motorola/solana/proprietary/libprojectM.so:/system/lib/libprojectM.so \
 #vendor/motorola/solana/proprietary/libprovlib.so:/system/lib/libprovlib.so \
 #vendor/motorola/solana/proprietary/libquicksec.so:/system/lib/libquicksec.so \
-#vendor/motorola/solana/proprietary/librds_util.so:/system/lib/librds_util.so \
-#vendor/motorola/solana/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
-#vendor/motorola/solana/proprietary/libril.so:/system/lib/libril.so \
-#vendor/motorola/solana/proprietary/libril_rds.so:/system/lib/libril_rds.so \
 #vendor/motorola/solana/proprietary/libscalado.so:/system/lib/libscalado.so \
 #vendor/motorola/solana/proprietary/libsmapi.so:/system/lib/libsmapi.so \
 #vendor/motorola/solana/proprietary/libspellingcheckengine.so:/system/lib/libspellingcheckengine.so \
@@ -245,6 +229,24 @@ vendor/motorola/solana/proprietary/supportedlocales.conf:/system/etc/supportedlo
 #vendor/motorola/solana/proprietary/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
 #vendor/motorola/solana/proprietary/libxmpcore.so:/system/lib/libxmpcore.so \
 
+#vendor/motorola/solana/proprietary/librds_util.so:/system/lib/librds_util.so \
+#vendor/motorola/solana/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
+#vendor/motorola/solana/proprietary/libril.so:/system/lib/libril.so \
+#vendor/motorola/solana/proprietary/libril_rds.so:/system/lib/libril_rds.so \
+
+#vendor/motorola/solana/proprietary/libmotdrm1.so:/system/lib/libmotdrm1.so \
+#vendor/motorola/solana/proprietary/libmotdrm1_jni.so:/system/lib/libmotdrm1_jni.so \
+#vendor/motorola/solana/proprietary/libmot_atcmd.so:/system/lib/libmot_atcmd.so \
+#vendor/motorola/solana/proprietary/libmot_atcmd_mflex.so:/system/lib/libmot_atcmd_mflex.so \
+#vendor/motorola/solana/proprietary/libmot_bluetooth_jni.so:/system/lib/libmot_bluetooth_jni.so \
+#vendor/motorola/solana/proprietary/libmot_bthid_jni.so:/system/lib/libmot_bthid_jni.so \
+#vendor/motorola/solana/proprietary/libmot_btpan_jni.so:/system/lib/libmot_btpan_jni.so \
+#vendor/motorola/solana/proprietary/libmot_led.so:/system/lib/libmot_led.so \
+#vendor/motorola/solana/proprietary/libmoto_mdmctrl.so:/system/lib/libmoto_mdmctrl.so \
+#vendor/motorola/solana/proprietary/libmoto_netutil.so:/system/lib/libmoto_netutil.so \
+#vendor/motorola/solana/proprietary/libmoto_ril.so:/system/lib/libmoto_ril.so \
+#vendor/motorola/solana/proprietary/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
+
 PRODUCT_COPY_FILES += \
 vendor/motorola/solana/proprietary/libbattd.so:/system/lib/libbattd.so \
 
@@ -254,6 +256,12 @@ vendor/motorola/solana/proprietary/Notify_MPUAPP_reroute_Test_Core1.xem3:/system
 vendor/motorola/solana/proprietary/Notify_MPUSYS_Test_Core0.xem3:/system/lib/ducati/Notify_MPUSYS_Test_Core0.xem3 \
 vendor/motorola/solana/proprietary/Notify_MPUSYS_reroute_Test_Core0.xem3:/system/lib/ducati/Notify_MPUSYS_reroute_Test_Core0.xem3 \
 vendor/motorola/solana/proprietary/base_image_app_m3.xem3:/system/lib/ducati/base_image_app_m3.xem3 \
+
+# system/lib/hw
+PRODUCT_COPY_FILES += \
+vendor/motorola/solana/proprietary/gps.solana.so:/system/lib/hw/gps.solana.so \
+vendor/motorola/solana/proprietary/lights.solana.so:/system/lib/hw/lights.solana.so \
+vendor/motorola/solana/proprietary/sensors.solana.so:/system/lib/hw/sensors.solana.so \
 
 # system/tts
 #PRODUCT_COPY_FILES += \
@@ -276,10 +284,10 @@ vendor/motorola/solana/proprietary/base_image_app_m3.xem3:/system/lib/ducati/bas
 
 PRODUCT_COPY_FILES += \
 vendor/motorola/solana/proprietary/icudt44l.dat:/system/usr/icu/icudt44l.dat \
-vendor/motorola/solana/proprietary/AVRCP.kl:/system/usr/keylayout/AVRCP.kl \
-vendor/motorola/solana/proprietary/cpcap-key.kl:/system/usr/keylayout/cpcap-key.kl \
-vendor/motorola/solana/proprietary/qwerty.kl:/system/usr/keylayout/qwerty.kl \
-vendor/motorola/solana/proprietary/usb_keyboard_102_en_us.kl:/system/usr/keylayout/usb_keyboard_102_en_us.kl \
+#vendor/motorola/solana/proprietary/AVRCP.kl:/system/usr/keylayout/AVRCP.kl \
+#vendor/motorola/solana/proprietary/cpcap-key.kl:/system/usr/keylayout/cpcap-key.kl \
+#vendor/motorola/solana/proprietary/qwerty.kl:/system/usr/keylayout/qwerty.kl \
+#vendor/motorola/solana/proprietary/usb_keyboard_102_en_us.kl:/system/usr/keylayout/usb_keyboard_102_en_us.kl \
 
 # system/xbin
 #PRODUCT_COPY_FILES += \
