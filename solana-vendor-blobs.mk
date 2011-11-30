@@ -23,13 +23,10 @@
 #vendor/motorola/solana/proprietary/bthelp:/system/bin/bthelp \
 #vendor/motorola/solana/proprietary/bttest_mot:/system/bin/bttest_mot \
 #vendor/motorola/solana/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
-#vendor/motorola/solana/proprietary/charge_only_mode:/system/bin/charge_only_mode \
-#vendor/motorola/solana/proprietary/dbvc_atvc_property_set:/system/bin/dbvc_atvc_property_set \
 #vendor/motorola/solana/proprietary/dlnasrv:/system/bin/dlnasrv \
 #vendor/motorola/solana/proprietary/dmt:/system/bin/dmt \
 #vendor/motorola/solana/proprietary/dumpe2fs:/system/bin/dumpe2fs \
 #vendor/motorola/solana/proprietary/dund:/system/bin/dund \
-#vendor/motorola/solana/proprietary/ecckeyd:/system/bin/ecckeyd \
 #vendor/motorola/solana/proprietary/enable_mdm_usb_suspend.sh:/system/bin/enable_mdm_usb_suspend.sh \
 #vendor/motorola/solana/proprietary/enc_mgt_tool:/system/bin/enc_mgt_tool \
 #vendor/motorola/solana/proprietary/encryption_test:/system/bin/encryption_test \
@@ -40,13 +37,10 @@
 #vendor/motorola/solana/proprietary/ip:/system/bin/ip \
 #vendor/motorola/solana/proprietary/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
 #vendor/motorola/solana/proprietary/memtest_mode:/system/bin/memtest_mode \
-#vendor/motorola/solana/proprietary/mot_boot_mode:/system/bin/mot_boot_mode \
 #vendor/motorola/solana/proprietary/motobox:/system/bin/motobox \
 #vendor/motorola/solana/proprietary/napics.sh:/system/bin/napics.sh \
-#vendor/motorola/solana/proprietary/secclkd:/system/bin/secclkd \
 #vendor/motorola/solana/proprietary/smc_pa_ctrl:/system/bin/smc_pa_ctrl \
 #vendor/motorola/solana/proprietary/start_enc_mgt_tool.sh:/system/bin/start_enc_mgt_tool.sh \
-#vendor/motorola/solana/proprietary/startup_smc.sh:/system/bin/startup_smc.sh \
 #vendor/motorola/solana/proprietary/tcmd:/system/bin/tcmd \
 #vendor/motorola/solana/proprietary/tcmdhelp:/system/bin/tcmdhelp \
 #vendor/motorola/solana/proprietary/tstmetainfo:/system/bin/tstmetainfo \
@@ -60,11 +54,17 @@ vendor/motorola/solana/proprietary/akmd2:/system/bin/akmd2 \
 vendor/motorola/solana/proprietary/ap_gain.bin:/system/bin/ap_gain.bin \
 vendor/motorola/solana/proprietary/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
 vendor/motorola/solana/proprietary/battd:/system/bin/battd \
+vendor/motorola/solana/proprietary/charge_only_mode:/system/bin/charge_only_mode \
 vendor/motorola/solana/proprietary/chat-ril:/system/bin/chat-ril \
+vendor/motorola/solana/proprietary/dbvc_atvc_property_set:/system/bin/dbvc_atvc_property_set \
+vendor/motorola/solana/proprietary/ecckeyd:/system/bin/ecckeyd \
 vendor/motorola/solana/proprietary/mdm_panicd:/system/bin/mdm_panicd \
 vendor/motorola/solana/proprietary/modemlog:/system/bin/modemlog \
+vendor/motorola/solana/proprietary/mot_boot_mode:/system/bin/mot_boot_mode \
 vendor/motorola/solana/proprietary/pppd-ril:/system/bin/pppd-ril \
 vendor/motorola/solana/proprietary/rild:/system/bin/rild \
+vendor/motorola/solana/proprietary/secclkd:/system/bin/secclkd \
+vendor/motorola/solana/proprietary/startup_smc.sh:/system/bin/startup_smc.sh \
 vendor/motorola/solana/proprietary/testpppd:/system/bin/testpppd \
 vendor/motorola/solana/proprietary/tiap_loader:/system/bin/tiap_loader \
 vendor/motorola/solana/proprietary/usbd:/system/bin/usbd \
@@ -229,26 +229,25 @@ vendor/motorola/solana/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd
 #vendor/motorola/solana/proprietary/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
 #vendor/motorola/solana/proprietary/libxmpcore.so:/system/lib/libxmpcore.so \
 
-#vendor/motorola/solana/proprietary/librds_util.so:/system/lib/librds_util.so \
-#vendor/motorola/solana/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
-#vendor/motorola/solana/proprietary/libril.so:/system/lib/libril.so \
-#vendor/motorola/solana/proprietary/libril_rds.so:/system/lib/libril_rds.so \
-
-#vendor/motorola/solana/proprietary/libmotdrm1.so:/system/lib/libmotdrm1.so \
-#vendor/motorola/solana/proprietary/libmotdrm1_jni.so:/system/lib/libmotdrm1_jni.so \
-#vendor/motorola/solana/proprietary/libmot_atcmd.so:/system/lib/libmot_atcmd.so \
-#vendor/motorola/solana/proprietary/libmot_atcmd_mflex.so:/system/lib/libmot_atcmd_mflex.so \
-#vendor/motorola/solana/proprietary/libmot_bluetooth_jni.so:/system/lib/libmot_bluetooth_jni.so \
-#vendor/motorola/solana/proprietary/libmot_bthid_jni.so:/system/lib/libmot_bthid_jni.so \
-#vendor/motorola/solana/proprietary/libmot_btpan_jni.so:/system/lib/libmot_btpan_jni.so \
-#vendor/motorola/solana/proprietary/libmot_led.so:/system/lib/libmot_led.so \
-#vendor/motorola/solana/proprietary/libmoto_mdmctrl.so:/system/lib/libmoto_mdmctrl.so \
-#vendor/motorola/solana/proprietary/libmoto_netutil.so:/system/lib/libmoto_netutil.so \
-#vendor/motorola/solana/proprietary/libmoto_ril.so:/system/lib/libmoto_ril.so \
-#vendor/motorola/solana/proprietary/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
-
+# Motorola
 PRODUCT_COPY_FILES += \
 vendor/motorola/solana/proprietary/libbattd.so:/system/lib/libbattd.so \
+vendor/motorola/solana/proprietary/libmotdrm1.so:/system/lib/libmotdrm1.so \
+vendor/motorola/solana/proprietary/libmotdrm1_jni.so:/system/lib/libmotdrm1_jni.so \
+vendor/motorola/solana/proprietary/libmot_atcmd.so:/system/lib/libmot_atcmd.so \
+vendor/motorola/solana/proprietary/libmot_atcmd_mflex.so:/system/lib/libmot_atcmd_mflex.so \
+vendor/motorola/solana/proprietary/libmot_bluetooth_jni.so:/system/lib/libmot_bluetooth_jni.so \
+vendor/motorola/solana/proprietary/libmot_bthid_jni.so:/system/lib/libmot_bthid_jni.so \
+vendor/motorola/solana/proprietary/libmot_btpan_jni.so:/system/lib/libmot_btpan_jni.so \
+vendor/motorola/solana/proprietary/libmot_led.so:/system/lib/libmot_led.so \
+vendor/motorola/solana/proprietary/libmoto_mdmctrl.so:/system/lib/libmoto_mdmctrl.so \
+vendor/motorola/solana/proprietary/libmoto_netutil.so:/system/lib/libmoto_netutil.so \
+vendor/motorola/solana/proprietary/libmoto_ril.so:/system/lib/libmoto_ril.so \
+vendor/motorola/solana/proprietary/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
+vendor/motorola/solana/proprietary/librds_util.so:/system/lib/librds_util.so \
+vendor/motorola/solana/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
+vendor/motorola/solana/proprietary/libril.so:/system/lib/libril.so \
+vendor/motorola/solana/proprietary/libril_rds.so:/system/lib/libril_rds.so \
 
 # system/lib/ducati
 PRODUCT_COPY_FILES += \
