@@ -168,6 +168,7 @@ vendor/motorola/solana/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd
 
 # system/lib
 PRODUCT_COPY_FILES += \
+vendor/motorola/solana/proprietary/liba2dp.so:/system/lib/liba2dp.so \
 vendor/motorola/solana/proprietary/libadkutils.so:/system/lib/libadkutils.so \
 vendor/motorola/solana/proprietary/libamcm.so:/system/lib/libamcm.so \
 vendor/motorola/solana/proprietary/libbattd.so:/system/lib/libbattd.so \
