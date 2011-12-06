@@ -92,10 +92,10 @@ vendor/motorola/solana/proprietary/smc_pa.ift:/system/etc/smc_pa.ift \
 vendor/motorola/solana/proprietary/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
 
 #vendor/motorola/solana/proprietary/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
+#vendor/motorola/solana/proprietary/TIInit_10.5.20.bts:/system/etc/firmware/TIInit_10.5.20.bts \
 
 # system/etc/(others)
 PRODUCT_COPY_FILES += \
-vendor/motorola/solana/proprietary/TIInit_10.5.20.bts:/system/etc/firmware/TIInit_10.5.20.bts \
 vendor/motorola/solana/proprietary/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
 vendor/motorola/solana/proprietary/fm_rx_init_1283.2.bts:/system/etc/firmware/fm_rx_init_1283.2.bts \
 vendor/motorola/solana/proprietary/fmc_init_1283.2.bts:/system/etc/firmware/fmc_init_1283.2.bts \
@@ -159,16 +159,12 @@ vendor/motorola/solana/proprietary/fw_wlan1281_AP.bin:/system/etc/wifi/fw_wlan12
 vendor/motorola/solana/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
 
 # system/lib
+#vendor/motorola/solana/proprietary/libaudio.so:/system/lib/libaudio.so \
 #vendor/motorola/solana/proprietary/libaudio_ext.so:/system/lib/libaudio_ext.so \
-#vendor/motorola/solana/proprietary/libaudiopolicy_ext.so:/system/lib/libaudiopolicy_ext.so \
-
-# system/lib
-#vendor/motorola/solana/proprietary/libmediaext.so:/system/lib/libmediaext.so \
-#vendor/motorola/solana/proprietary/libnetutils.so:/system/lib/libnetutils.so \
+#vendor/motorola/solana/proprietary/liba2dp.so:/system/lib/liba2dp.so \
 
 # system/lib
 PRODUCT_COPY_FILES += \
-vendor/motorola/solana/proprietary/liba2dp.so:/system/lib/liba2dp.so \
 vendor/motorola/solana/proprietary/libadkutils.so:/system/lib/libadkutils.so \
 vendor/motorola/solana/proprietary/libamcm.so:/system/lib/libamcm.so \
 vendor/motorola/solana/proprietary/libbattd.so:/system/lib/libbattd.so \
