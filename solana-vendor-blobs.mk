@@ -19,19 +19,6 @@ PRODUCT_COPY_FILES += \
 vendor/motorola/solana/proprietary/GlobalNwSwitch.apk:/system/app/GlobalNwSwitch.apk \
 
 # system/bin
-#PRODUCT_COPY_FILES += \
-#vendor/motorola/solana/proprietary/battd:/system/bin/battd \
-#vendor/motorola/solana/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
-#vendor/motorola/solana/proprietary/dlnasrv:/system/bin/dlnasrv \
-#vendor/motorola/solana/proprietary/ip:/system/bin/ip \
-#vendor/motorola/solana/proprietary/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
-#vendor/motorola/solana/proprietary/memtest_mode:/system/bin/memtest_mode \
-#vendor/motorola/solana/proprietary/motobox:/system/bin/motobox \
-#vendor/motorola/solana/proprietary/smc_pa_ctrl:/system/bin/smc_pa_ctrl \
-#vendor/motorola/solana/proprietary/tf_daemon:/system/bin/tf_daemon \
-#vendor/motorola/solana/proprietary/tstmetainfo:/system/bin/tstmetainfo \
-#vendor/motorola/solana/proprietary/vold:/system/bin/vold \
-
 PRODUCT_COPY_FILES += \
 vendor/motorola/solana/proprietary/Hostapd:/system/bin/Hostapd \
 vendor/motorola/solana/proprietary/akmd2:/system/bin/akmd2 \
@@ -74,6 +61,18 @@ vendor/motorola/solana/proprietary/usbd:/system/bin/usbd \
 vendor/motorola/solana/proprietary/whisperd:/system/bin/whisperd \
 vendor/motorola/solana/proprietary/vpnclientpm:/system/bin/vpnclientpm \
 
+#vendor/motorola/solana/proprietary/battd:/system/bin/battd \
+#vendor/motorola/solana/proprietary/bugtogo.sh:/system/bin/bugtogo.sh \
+#vendor/motorola/solana/proprietary/dlnasrv:/system/bin/dlnasrv \
+#vendor/motorola/solana/proprietary/ip:/system/bin/ip \
+#vendor/motorola/solana/proprietary/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
+#vendor/motorola/solana/proprietary/memtest_mode:/system/bin/memtest_mode \
+#vendor/motorola/solana/proprietary/motobox:/system/bin/motobox \
+#vendor/motorola/solana/proprietary/smc_pa_ctrl:/system/bin/smc_pa_ctrl \
+#vendor/motorola/solana/proprietary/tf_daemon:/system/bin/tf_daemon \
+#vendor/motorola/solana/proprietary/tstmetainfo:/system/bin/tstmetainfo \
+#vendor/motorola/solana/proprietary/vold:/system/bin/vold \
+
 
 # system/etc
 PRODUCT_COPY_FILES += \
@@ -97,6 +96,7 @@ vendor/motorola/solana/proprietary/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_i
 
 #vendor/motorola/solana/proprietary/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
 #vendor/motorola/solana/proprietary/TIInit_10.5.20.bts:/system/etc/firmware/TIInit_10.5.20.bts \
+
 
 # system/etc/(others)
 PRODUCT_COPY_FILES += \
@@ -161,13 +161,13 @@ vendor/motorola/solana/proprietary/MeaningFulLocation.vsensor:system/etc/vsensor
 vendor/motorola/solana/proprietary/fw_wlan1281.bin:/system/etc/wifi/fw_wlan1281.bin \
 vendor/motorola/solana/proprietary/fw_wlan1281_AP.bin:/system/etc/wifi/fw_wlan1281_AP.bin \
 vendor/motorola/solana/proprietary/hostapd.conf.templet:/system/etc/wifi/hostapd.conf.templet \
-vendor/motorola/solana/proprietary/alsa.conf:system/usr/share/alsa/alsa.conf \
-vendor/motorola/solana/proprietary/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
 vendor/motorola/solana/proprietary/00main:system/usr/share/alsa/init/00main \
 vendor/motorola/solana/proprietary/default:system/usr/share/alsa/init/default \
 vendor/motorola/solana/proprietary/hda:system/usr/share/alsa/init/hda \
 vendor/motorola/solana/proprietary/info:system/usr/share/alsa/init/info \
 vendor/motorola/solana/proprietary/test:system/usr/share/alsa/init/test \
+vendor/motorola/solana/proprietary/alsa.conf:system/usr/share/alsa/alsa.conf \
+vendor/motorola/solana/proprietary/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
 vendor/motorola/solana/proprietary/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
 vendor/motorola/solana/proprietary/default.conf:system/usr/share/alsa/pcm/default.conf \
 vendor/motorola/solana/proprietary/dmix.conf:system/usr/share/alsa/pcm/dmix.conf \
@@ -183,11 +183,6 @@ vendor/motorola/solana/proprietary/surround41.conf:system/usr/share/alsa/pcm/sur
 vendor/motorola/solana/proprietary/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
 vendor/motorola/solana/proprietary/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
 vendor/motorola/solana/proprietary/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
-
-# system/lib
-#vendor/motorola/solana/proprietary/libaudio.so:/system/lib/libaudio.so \
-#vendor/motorola/solana/proprietary/libaudio_ext.so:/system/lib/libaudio_ext.so \
-#vendor/motorola/solana/proprietary/liba2dp.so:/system/lib/liba2dp.so \
 
 # system/lib
 PRODUCT_COPY_FILES += \
