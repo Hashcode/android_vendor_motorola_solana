@@ -48,6 +48,7 @@ vendor/motorola/solana/proprietary/mot_boot_mode:/system/bin/mot_boot_mode \
 vendor/motorola/solana/proprietary/napics.sh:/system/bin/napics.sh \
 vendor/motorola/solana/proprietary/pppd-ril:/system/bin/pppd-ril \
 vendor/motorola/solana/proprietary/rild:/system/bin/rild \
+vendor/motorola/solana/proprietary/rild.bin:/system/bin/rild.bin \
 vendor/motorola/solana/proprietary/secclkd:/system/bin/secclkd \
 vendor/motorola/solana/proprietary/start_enc_mgt_tool.sh:/system/bin/start_enc_mgt_tool.sh \
 vendor/motorola/solana/proprietary/startup_smc.sh:/system/bin/startup_smc.sh \
