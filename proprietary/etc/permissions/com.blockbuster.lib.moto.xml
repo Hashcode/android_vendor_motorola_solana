@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+<library name="com.blockbuster.lib.moto" file="/system/framework/com.blockbuster.lib.moto.jar"/>
+</permissions>

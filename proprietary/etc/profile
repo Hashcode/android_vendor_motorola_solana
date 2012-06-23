@@ -1,0 +1,4 @@
+# Set any environment variables in here which must be set at run-time,
+# because init.rc cannot handle doing so with the "export" keyword.
+
+export HOSTNAME=`getprop ro.product.device`

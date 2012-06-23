@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+<library name="com.netflix.android.mediaclient" file="/system/framework/com.netflix.android.mediaclient.jar"/>
+</permissions>
